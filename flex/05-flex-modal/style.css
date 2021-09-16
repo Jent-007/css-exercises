@@ -20,42 +20,6 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: flex;
-  padding: 15px;
-  justify-content: space-between;
-  gap: 15px;
-}
-
-.left-part {
-  display: flex;
-  justify-content: center;
-}
-
-.header {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.right-part {
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-}
-
-.right-top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.right-bottom {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.buttons {
-  display: flex;
-  gap: 5px;
 }
 
 .icon {
@@ -99,4 +63,44 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*solution*/
+.modal {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.left-part {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-part {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.right-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
 }
